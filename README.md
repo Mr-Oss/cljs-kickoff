@@ -60,6 +60,28 @@ This project is intentionally minimal. There's plenty resources on ClojureScript
 on the web. Feel free to take a look at the posts on my blog at
 http://squirrel.pl/blog/tag/clojurescript/
 
+# Change log
+
+  0.1.6
+
+  commit fe215135064467076a90bcb4d4c6005e098faa9f
+  Merge: 0eeebf5 9e6ded2
+  Date:   Thu Dec 4 05:41:13 2014 +0200
+
+    Merge branch 'feature/dependencies-update' into develop
+
+        Dependencies version update based on [lein-ancient "0.5.5"](https://github.com/xsc/lein-ancient) advices.
+        Update version of :
+          `clojure` to "1.6.0".
+          `ring` to the latest.
+          `lein-ring` to the latest.
+          `clojurescript` to the latest.
+          `lein-cljsbuild` to be compatible with `clojurescript` version.
+
+        Other:
+          `.gitignore` - added `.lein-*`.
+
+
 ## License
 
 Copyright © 2012 Konrad Garus
