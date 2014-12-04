@@ -5,7 +5,7 @@
                  [org.clojure/clojurescript "0.0-2371"]
                  [ring "1.3.2"]]
   :plugins [[lein-cljsbuild "1.0.3"]
-            [lein-ring "0.8.10"]]
+            [lein-ring "0.8.13"]]
   :hooks [leiningen.cljsbuild]
   :source-paths ["src/clj"]
   :cljsbuild { 
