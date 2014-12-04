@@ -4,7 +4,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2371"]
                  [ring "1.3.2"]]
-  :plugins [[lein-cljsbuild "1.0.2"]
+  :plugins [[lein-cljsbuild "1.0.3"]
             [lein-ring "0.8.10"]]
   :hooks [leiningen.cljsbuild]
   :source-paths ["src/clj"]
